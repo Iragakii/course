@@ -4,78 +4,76 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-li {
-    list-style: none;
-}
+
 a {
     text-decoration: none;
-    color: #000;
 }
+
+body {
+    padding: 0 150px;
+    background: #dda64f;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    padding: 12 50px;
-    height: 200px    ;
-    align-items:center;
+    padding: 20px 0;
+}
 
-}
-.logo 
-{
-    flex: 1;
-    padding: ;
-}
-.menu{
-    flex: 3;
+.header-left {
     display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
 }
-.menu >  li {
-    padding: 0 12px;
-}
-.menu > li:hover .sub-menu {
-    visibility: visible;
-    top: 120px;
-}
-.sub-menu {
-    position: absolute;
-    width: 150px;
-    border: 1px solid #ccc;
-    padding: 10px 0 10px 20px;
-    visibility: hidden;
-    top: 100px;
-    transition: 0.3s;
-}   
-.sub-menu ul {
-    padding-left: 20px;
-}
-.sub-menu li a {
-    font-weight: normal;
-    font-size: 12px!important;
-}
-.menu   li   a { 
-    font-size: 12px;
+
+.logo {
+    font-size: 18px;
+    color: #fff;
     font-weight: bold;
-    display: block;
-    line-height: 20px;
-
+    cursor: pointer;
 }
 
-.others {
-    flex: 1;
+ul.menu {
+    display: flex;
+    gap: 20px;
 }
-.others > li {
-    padding: 0 12px;
-    position: relative;
+
+ul.menu li {
+    list-style-type: none;
 }
-.others > li:first-child {
-     position: relative;
+
+ul.menu li a {
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
 }
-.others > li:first-child input {
-    width: 100%;
+
+.login {
+    display: flex;
+    width: 164px;
+    justify-content: space-between;
+}
+
+.btn-login {
+    background: none;
     border: none;
-    border-bottom: 1px solid #333;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
 }
 
-.others > li:first-child i {
-    position: absolute;
-    right: 10px;
+.btn-join {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #9d67d7;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-left: 4px;
 }

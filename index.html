@@ -5,53 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" >
     <link rel="stylesheet" href="style.css">
-    <title>Ira Shop</title>
+    <title>Course</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="https://i.pinimg.com/564x/54/19/e0/5419e0570de8b6e0cc967b7d3437065e.jpg" alt="">
-            
+        <div class="header-left">
+            <a class="logo" href="#">
+                BrandName
+            </a>
+            <ul class="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Product</a>
+                </li>
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-        <div class="menu">
-            <li><a href="">NAM</a>
-                <ul class="sub-menu">
-                    <li ><a href="">Hàng Mới Về</a></li>
-                    <li><a href="">Collection</a></li>
-                    <li><a href="">Áo</a>
-                        <ul>
-                            <li><a href="">Áo sơ mi </a></li>
-                            <li><a href="">Áo thun</a></li>
-                            <li><a href="">Áo khoác</a></li>
-                            <li><a href="">Áo len</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="">Quần</a>
-                        <ul>
-                            <li><a href="">Quần jean</a></li>
-                            <li><a href="">Quần kaki</a></li>
-                            <li><a href="">Quần lửng</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-            </li>
-            <li><a href="">NỮ</a></li>
-            <li><a href="">TRẺ EM</a></li>
-            <li><a href="">SALE</a></li>
-            <li><a href="">KHẨU TRANG</a></li>
-            <li><a href="">BST</a></li>
-            <li><a href="">THÔNG TIN</a></li>
-
+        <div class="login">
+            <button class="btn-login">Login</button>
+            <button class="btn-join">
+                Join us
+                <!-- TODO: should reduce the size of this icon -->
+                <i class="fa fa-light fa-arrow-right arrow"></i>
+            </button>
         </div>
-        <div  class="others">
-            <li><input  placeholder="Tim Kiem" type="text"><i class="fa-solid fa-magnifying-glass-minus"></i></li>
-            <li><a class="fa fa-paw" href=""></a></li>
-            <li><a class="fa-duotone fa-user" href=""></a><li>
-            <a class="fa fa-shopping-bag" href=""></a></li>
-        </div>
-
     </header>
+    <div class="content">
+        <span class="content-small-title"></span>
+        <span class="content-large-title"></span>
+        <span class="content-description"></span>
+        <div class="group-actions">
+            <button class="btn-action-get-quote"></button>
+            <button class="btn-action-learn"></button>
+        </div>
+        <div class="group-courses">
+            <div class="course-wrapper">
+                <img>
+                <span class="course-title"></span>
+                <span class="course-description"></span>
+            </div>
+            <div>
+                <img>
+                <span class="course-title"></span>
+                <span class="course-description"></span>
+            </div>
+            <div>
+                <img>
+                <span class="course-title"></span>
+                <span class="course-description"></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
