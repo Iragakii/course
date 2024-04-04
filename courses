@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" >
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Course</title>
 </head>
@@ -47,19 +49,28 @@
         </div>
         <div class="group-courses">
             <div class="course-wrapper">
-                <img>
-                <span class="course-title"></span>
-                <span class="course-description"></span>
+                <ion-icon name="desktop-outline"></ion-icon>
+                <span class="course-title">Training Courses</span>
+                <hr width="20%" size="1px" color="orange" />
+                <span class="course-description">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour...</span>
             </div>
-            <div>
-                <img>
-                <span class="course-title"></span>
-                <span class="course-description"></span>
+            <div class="course-wrapper">
+                <ion-icon name="telescope-outline"></ion-icon>
+                <span class="course-title">Training Courses</span>
+                <hr width="20%" size="1px" color="orange" />
+                <span class="course-description">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour...</span>
             </div>
-            <div>
-                <img>
-                <span class="course-title"></span>
-                <span class="course-description"></span>
+            <div class="course-wrapper">
+                <i class="fa fa-solid fa-graduation-cap"></i>
+                <span class="course-title">Certified Teacher</span>
+                <hr width="20%" size="1px" color="orange" />
+                <span class="course-description">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour...</span>
             </div>
         </div>
     </div>
