@@ -51,7 +51,7 @@
             <div class="course-wrapper">
                 <ion-icon name="desktop-outline"></ion-icon>
                 <span class="course-title">Training Courses</span>
-                <hr width="20%" size="1px" color="orange" />
+                <hr width="200%" size="2px" color="orange" />
                 <span class="course-description">The gradual accumulation of 
                     information about atomic and 
                     small-scale behaviour...</span>
@@ -59,7 +59,7 @@
             <div class="course-wrapper">
                 <ion-icon name="telescope-outline"></ion-icon>
                 <span class="course-title">Training Courses</span>
-                <hr width="20%" size="1px" color="orange" />
+                <hr width="200%" size="2px" color="orange" />
                 <span class="course-description">The gradual accumulation of 
                     information about atomic and 
                     small-scale behaviour...</span>
@@ -67,7 +67,7 @@
             <div class="course-wrapper">
                 <i class="fa fa-solid fa-graduation-cap"></i>
                 <span class="course-title">Certified Teacher</span>
-                <hr width="20%" size="1px" color="orange" />
+                <hr width="200%" size="2px" color="orange" />
                 <span class="course-description">The gradual accumulation of 
                     information about atomic and 
                     small-scale behaviour...</span>
