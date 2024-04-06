@@ -73,17 +73,18 @@ ul.menu li a {
     font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .arrow {
-    margin-left: 4px;
+    margin-left: 6px;
 }
 .content {
     display: grid;
     width: min-content;
 }
 .content-small-title {
-    font-size: 10px;
+    font-size: 12px;
     color: #fff;
     font-weight: bold;
     margin-bottom: 20px;
@@ -91,13 +92,14 @@ ul.menu li a {
 
 }
 .content-large-title {
+    display: contents;
     font-size: 35px;
     color: #fff;
     font-weight: bold;
     width: min-content;
 }
 .content-description {
-    font-size: 8px;
+    font-size: 10px;
     color: #fff;
     font-weight: bold;
     margin-top: 20px;
@@ -117,7 +119,7 @@ ul.menu li a {
 .btn-action-learn {
     padding: 10px 12px;
     border-radius: 6px;
-    border: dashed;
+    border: 1px double;
     background-color:#dda64f;
     color: #fff;
     font-size: 8px;
@@ -126,6 +128,7 @@ ul.menu li a {
 }
 .group-courses {
     display: flex;
+    justify-conten;
     
 }
 .course-wrapper {
