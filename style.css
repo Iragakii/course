@@ -11,7 +11,8 @@ a {
 
 body {
     padding: 0 150px;
-    background: #dda64f;
+    background: midnightblue;
+    background-image: url('background.png');
 }
 
 header {
@@ -120,7 +121,7 @@ ul.menu li a {
     padding: 10px 12px;
     border-radius: 6px;
     border: 1px double;
-    background-color:#dda64f;
+    background-color: transparent;
     color: #fff;
     font-size: 8px;
     cursor: pointer;
