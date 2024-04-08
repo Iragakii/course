@@ -9,16 +9,24 @@ a {
     text-decoration: none;
 }
 
-body {
-    padding: 0 150px;
-    background: #00356B;
-    background-image: url('background.png');
-}
+body{
+    margin: 0px;
+  }
+
+.page-1 {
+    padding: 1px 120px  200px  130px;
+    background: #26335D;
+    background-image: url('background.png'); 
+    background-size: 98%;
+    background-repeat: no-repeat;
+
+} 
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+   
 }
 
 .header-left {
@@ -78,7 +86,7 @@ ul.menu li a {
 }
 
 .arrow {
-    margin-left: 6px;
+    margin-left: 50px;
 }
 .content {
     display: grid;
@@ -94,7 +102,7 @@ ul.menu li a {
 }
 .content-large-title {
     display: contents;
-    font-size: 35px;
+    font-size: 45px;
     color: #fff;
     font-weight: bold;
     width: min-content;
@@ -164,9 +172,80 @@ ul.menu li a {
 }
 .line {
     display: table-cell;
+    
 }
 .course-description{
     color: #737373;
     font-size: x-small;
     white-space: nowrap;
+}
+.page-2 {
+    padding: 1px 120px  1px  130px;
+    background: #26335D;
+
+}
+.content-2 {
+    padding-top: 150px;
+    display: grid;
+    gap: 25px;
+    
+}
+.content-large-title-2 {
+    display: contents;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    width: min-content;
+}
+.content-description-2 {
+    color:  #FFFFFF;
+    font-size: 12px;
+    font-family: 'Montserrat';
+
+}
+.btn-action-learn-2 {
+    background: none;
+    border: none;
+    font-size: 10px;
+    color: #8D5CF6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    
+.image-2{
+    position: relative;
+    padding-left: 550px;
+    bottom: 250px;
+    
+}
+.image-3 {
+    position: relative;
+    padding-left: 450px;
+    bottom: 320px;
+
+}
+.image-4 {
+    position: relative;
+    padding-left: 450px;
+    bottom: 700px;
+
+}
+.rectangle-1 {
+    position: relative;
+    left: 500px;
+    bottom: 875px;
+    width:50px;
+    height:25px;
+    background:#E2F6FF;
+    
+}
+.rectangle-2 {
+    position: relative;
+    left: 1010px;
+    bottom: 610px;
+    width:33px;
+    height:57px;
+    background:#FFDCE0;
+
 }
