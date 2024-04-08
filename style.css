@@ -128,7 +128,7 @@ ul.menu li a {
 }
 .group-courses {
     display: flex;
-    
+    gap: 20px;
  
 }
 .icon {
@@ -141,11 +141,11 @@ ul.menu li a {
     overflow: hidden;
     background-color: #FFFFFF;
     width: 25%;
-    margin-left: 20px;
     margin-top: 40px;
-    padding: 40px;
+    padding: 50px;
+    padding-top: 25px;
     padding-left: 25px;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
     
 }
 .course-title {
