@@ -134,6 +134,13 @@ ul.menu li a {
 .icon {
     margin-top: 0px;
     margin-bottom: 10px;
+    background-color: #E74040;
+    border-radius: 15%;
+    display: ruby-text;
+    height: 150%;  
+    padding: 10px 0px;    
+    width : 35%;  
+    color: #fff;
 }
 .course-wrapper {
     flex: 1;
@@ -145,7 +152,7 @@ ul.menu li a {
     padding: 50px;
     padding-top: 25px;
     padding-left: 25px;
-    padding-bottom: 3%;
+    padding-bottom: 20px;
     
 }
 .course-title {
