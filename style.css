@@ -290,7 +290,7 @@ ul.menu li a {
 ul.products li{
     flex-basis: 15%;
     box-sizing: border-box;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     height: 500px;
 }
 ul.products li img {
@@ -326,8 +326,13 @@ ul.products li img {
     cursor: pointer;
 }
 .products-info {
+    position: relative;
     display: grid;
     gap: 15px;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 31px;
 }
 .frame {
     display: flex;
