@@ -15,8 +15,8 @@ body{
 
 .page-1 {
     padding: 1px 120px  200px  130px;
-    background: #26335D;
-    background-image: url('background.png'); 
+                                background: #26335D;
+    background-image: url('../asset/background.png'); 
     background-size: 98%;
     background-repeat: no-repeat;
 
@@ -279,18 +279,15 @@ ul.menu li a {
     padding-bottom: 70px;
 }
 .products {
-    list-style: none   ;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;  
     
 }
 ul.products li{
     flex-basis: 15%;
     box-sizing: border-box;
-    /* background-color: #FFFFFF; */
     height: 500px;
 }
 ul.products li img {
