@@ -16,7 +16,7 @@ body{
 .page-1 {
     padding: 1px 120px  200px  130px;
                                 background: #26335D;
-    background-image: url('../asset/background.png'); 
+    background-image: url('./asset/background.png'); 
     background-size: 98%;
     background-repeat: no-repeat;
 
