@@ -16,7 +16,7 @@ body {
   padding: 1px 120px 200px 130px;
   background: #26335d;
   background-image: url("./asset/background.png");
-  background-size: 98%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
@@ -172,7 +172,7 @@ ul.menu li a {
   white-space: nowrap;
 }
 .page-2 {
-  padding: 1px 120px 1px 130px;
+  padding: 1px 120px 200px 130px;
   background: #26335d;
   height: 600px;
 }
@@ -272,7 +272,7 @@ ul.menu li a {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding-right: 470px;
+  padding-right: 380px;
 }
 
 .products img {
@@ -389,4 +389,9 @@ ul.menu li a {
   font-size: 12px;
   cursor: pointer;
   font-weight: bold;
+}
+.page-4 {
+  padding: 1px 120px 1px 130px;
+  background: #26335d;
+  height: 600px;
 }
