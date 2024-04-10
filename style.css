@@ -1,409 +1,395 @@
-
 * {
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-body{
-    margin: 0px;
-  }
+body {
+  margin: 0px;
+}
 
 .page-1 {
-    padding: 1px 120px  200px  130px;
-                                background: #26335D;
-    background-image: url('./asset/background.png'); 
-    background-size: 98%;
-    background-repeat: no-repeat;
-
-} 
+  padding: 1px 120px 200px 130px;
+  background: #26335d;
+  background-image: url("./asset/background.png");
+  background-size: 98%;
+  background-repeat: no-repeat;
+}
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-   
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
 .header-left {
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: center;
 }
 
 .logo {
-    font-size: 18px;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 ul.menu {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 ul.menu li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ul.menu li a {
-    font-size: 13px;
-    color: #fff;
-    font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .login {
-    display: flex;
-    width: 164px;
-    justify-content: space-between;
+  display: flex;
+  width: 164px;
+  justify-content: space-between;
 }
 
 .btn-login {
-    background: none;
-    border: none;
-    font-size: 13px;
-    color: #fff;
-    font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .btn-join {
-    padding: 10px;
-    height: 40px;
-    width: 100px;
-    border-radius: 6px;
-    border: none;
-    background-color: #9d67d7;
-    color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-    cursor: pointer;
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  border: none;
+  background-color: #9d67d7;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .arrow {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 .content {
-    display: grid;
-    width: min-content;
+  display: grid;
+  width: min-content;
 }
 .content-small-title {
-    font-size: 12px;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 50px;
-
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 .content-large-title {
-    display: contents;
-    font-size: 45px;
-    color: #fff;
-    font-weight: bold;
-    width: min-content;
+  display: contents;
+  font-size: 45px;
+  color: #fff;
+  font-weight: bold;
+  width: min-content;
 }
 .content-description {
-    font-size: 10px;
-    color: #fff;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 15px;
-
+  font-size: 10px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .btn-action-get-quote {
-    padding: 10px 12px;
-    border-radius: 6px;
-    border: none;
-    background-color: #9d67d7;
-    color: #fff;
-    font-size: 8px;
-    cursor: pointer;
-    font-weight: bold
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #9d67d7;
+  color: #fff;
+  font-size: 8px;
+  cursor: pointer;
+  font-weight: bold;
 }
 .btn-action-learn {
-    padding: 10px 12px;
-    border-radius: 6px;
-    border: 1px double;
-    background-color: transparent;
-    color: #fff;
-    font-size: 8px;
-    cursor: pointer;
-    font-weight: bold
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px double;
+  background-color: transparent;
+  color: #fff;
+  font-size: 8px;
+  cursor: pointer;
+  font-weight: bold;
 }
 .group-courses {
-    display: flex;
-    gap: 20px;
- 
+  display: flex;
+  gap: 20px;
 }
 .icon {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    background-color: #E74040;
-    border-radius: 15%;
-    display: ruby-text;
-    height: 150%;  
-    padding: 10px 0px;    
-    width : 35%;  
-    color: #fff;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: #e74040;
+  border-radius: 15%;
+  display: ruby-text;
+  height: 150%;
+  padding: 10px 0px;
+  width: 35%;
+  color: #fff;
 }
 .course-wrapper {
-    flex: 1;
-    border-radius: 1px;
-    overflow: hidden;
-    background-color: #FFFFFF;
-  
-    margin-top: 40px;
-    padding: 50px;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-bottom: 20px;
-    
+  flex: 1;
+  border-radius: 1px;
+  overflow: hidden;
+  background-color: #ffffff;
+
+  margin-top: 40px;
+  padding: 50px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 20px;
 }
 .course-title {
-    font-weight: bold;
-    font-size: small;
-    color: #252B42;
-    white-space: nowrap;
+  font-weight: bold;
+  font-size: small;
+  color: #252b42;
+  white-space: nowrap;
 }
 .line {
-    display: table-cell;
-    
+  display: table-cell;
 }
-.course-description{
-    color: #737373;
-    font-size: x-small;
-    white-space: nowrap;
+.course-description {
+  color: #737373;
+  font-size: x-small;
+  white-space: nowrap;
 }
 .page-2 {
-    padding: 1px 120px  1px  130px;
-    background: #26335D;
-    height: 600px;
+  padding: 1px 120px 1px 130px;
+  background: #26335d;
+  height: 600px;
 }
 .content-2 {
-    padding-top: 150px;
-    display: grid;
-    gap: 25px;
-    
+  padding-top: 150px;
+  display: grid;
+  gap: 25px;
 }
 .content-large-title-2 {
-    display: contents;
-    font-size: 30px;
-    color: #fff;
-    font-weight: bold;
-    width: min-content;
+  display: contents;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  width: min-content;
 }
 .content-description-2 {
-    color:  #FFFFFF;
-    font-size: 12px;
-    font-family: 'Montserrat';
-
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat";
 }
 .btn-action-learn-2 {
-    background: none;
-    border: none;
-    font-size: 10px;
-    color: #8D5CF6;
-    font-weight: bold;
-    cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 10px;
+  color: #8d5cf6;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-    
-.image-2{
-    position: relative;
-    padding-left: 550px;
-    bottom: 250px;
-    
+.image-2 {
+  position: relative;
+  padding-left: 550px;
+  bottom: 250px;
+}
+.image-2 img {
+  border-radius: 200px 50px 30px 20px;
 }
 .image-3 {
-    position: relative;
-    padding-left: 450px;
-    bottom: 320px;
-
+  position: relative;
+  padding-left: 450px;
+  bottom: 320px;
+}
+.image-3 img {
+  border-radius: 18px 18px 18px 18px;
 }
 .image-4 {
-    position: relative;
-    padding-left: 450px;
-    bottom: 700px;
-
+  position: relative;
+  padding-left: 450px;
+  bottom: 700px;
+}
+.image-4 img {
+  border-radius: 50px 50px 50px 50px;
 }
 .rectangle-1 {
-    position: relative;
-    left: 500px;
-    bottom: 875px;
-    width:50px;
-    height:25px;
-    background:#E2F6FF;
-    
+  position: relative;
+  left: 500px;
+  bottom: 875px;
+  width: 50px;
+  height: 25px;
+  background: #e2f6ff;
 }
 .rectangle-2 {
-    position: relative;
-    left: 1010px;
-    bottom: 610px;
-    width:33px;
-    height:57px;
-    background:#FFDCE0;
+  position: relative;
+  left: 1010px;
+  bottom: 610px;
+  width: 33px;
+  height: 57px;
+  background: #ffdce0;
 }
 .page-3 {
-    padding: 1px 120px  100px  130px;
-    background: #26335D;
-    height: 1000px;
+  padding: 1px 120px 100px 130px;
+  background: #26335d;
+  height: 1000px;
 }
 .content-3 {
-    display: grid;
-    gap: 20px;
-    padding-top: 150px;
-
+  display: grid;
+  gap: 20px;
+  padding-top: 150px;
 }
 .tag {
-    font-size: 10px;
-    color: #8D5CF6;
-    font-weight: bold;
-
+  font-size: 10px;
+  color: #8d5cf6;
+  font-weight: bold;
 }
 .content-small-title-3 {
-    display: contents;
-    font-size: 30px;
-    color: #fff;
-    font-weight: bold;
-
+  display: contents;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
 }
 .content-description-3 {
-    color:  #FFFFFF;
-    font-size: 12px;
-    font-family: 'Montserrat';
-    padding-bottom: 70px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat";
+  padding-bottom: 70px;
 }
 .products {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
-    
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-ul.products li{
-    flex-basis: 15%;
-    box-sizing: border-box;
-    height: 500px;
+ul.products li {
+  flex-basis: 15%;
+  box-sizing: border-box;
+  height: 500px;
 }
 ul.products li img {
-    max-width: 100%;  
-    height: 200px;
+  max-width: 100%;
+  height: 200px;
 }
-.tag-3{
-    position: relative;
-    top: 26px;
-    left: 10px;
+.tag-3 {
+  position: relative;
+  top: 26px;
+  left: 10px;
 }
 .btn-tag-3 {
-    border: none;
-    color: #FFFFFF;
-    background-color: #E74040;
-    font-size: 9px;
-    padding: 3px 5px;  
-    font-weight: bold;  
-    cursor: pointer;
+  border: none;
+  color: #ffffff;
+  background-color: #e74040;
+  font-size: 9px;
+  padding: 3px 5px;
+  font-weight: bold;
+  cursor: pointer;
 }
-.products-action {   
-   position: relative;
-   bottom: 42px;
-   left: 42px;
+.products-action {
+  position: relative;
+  bottom: 42px;
+  left: 42px;
 }
 .btn-products-action {
-    background-color: #FFFFFF;
-    border: none;
-    padding: 5px 5px 5px 5px ;
-    height: 27px;
-    border-radius:60%;
-    width: 30px;
-    cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  height: 27px;
+  border-radius: 60%;
+  width: 30px;
+  cursor: pointer;
 }
 .products-info {
-    position: relative;
-    display: grid;
-    gap: 15px;
-    background-color: #FFFFFF;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    bottom: 31px;
+  position: relative;
+  display: grid;
+  gap: 15px;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 31px;
 }
 .frame {
-    display: flex;
-    width: 160px;
-    justify-content: space-between;
-    padding-left: 17px;
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  padding-left: 17px;
 }
 .tag-4 {
-    font-size: 12px;
-    color: #8D5CF6;
-    font-weight: bold;
+  font-size: 12px;
+  color: #8d5cf6;
+  font-weight: bold;
 }
 .btn-info {
-    display: flex;
-    justify-content: space-between;
-    background-color: #26335D;
-    color: #FFFFFF;
-    font-size: 10px; 
-    border-radius:40%;
-    padding: 5px 5px 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #26335d;
+  color: #ffffff;
+  font-size: 10px;
+  border-radius: 40%;
+  padding: 5px 5px 5px 5px;
 }
 .products-title {
-    font-size: 14px;
-    color: #252B42;
-    font-weight: bold;
-    padding-left: 17px;
-
+  font-size: 14px;
+  color: #252b42;
+  font-weight: bold;
+  padding-left: 17px;
 }
 .products-description {
-    font-size: 10px;
-    color: #BDBDBD;
-    font-weight: bold;
-    padding-left: 17px;
+  font-size: 10px;
+  color: #bdbdbd;
+  font-weight: bold;
+  padding-left: 17px;
 }
 .products-sale {
-    padding-left: 17px;
-
+  padding-left: 17px;
 }
 .btn-sale {
-    border: none;
-    background: none;
-    color: #737373;
-    cursor: pointer;
+  border: none;
+  background: none;
+  color: #737373;
+  cursor: pointer;
 }
-.sale-info{
-    color: #737373;
-    font-size: 10px;
-    font-weight: bold;
+.sale-info {
+  color: #737373;
+  font-size: 10px;
+  font-weight: bold;
 }
 .products-prices {
-    padding-left: 17px;
+  padding-left: 17px;
 }
 .prices-info-old {
-    font-weight: bold;
-    color:#BDBDBD;
-    font-size: 12px;
+  font-weight: bold;
+  color: #bdbdbd;
+  font-size: 12px;
 }
 .prices-info-new {
-    font-weight: bold;
-    color:#FF7B52;
-    font-size: 12px;
+  font-weight: bold;
+  color: #ff7b52;
+  font-size: 12px;
 }
 .action-learn-2 {
-    padding-left: 17px;
-
+  padding-left: 17px;
 }
 .btn-action-learn-2 {
-    padding: 10px 10px 10px 10px;
-    border-radius: 20px;
-    border: 0.5px double;
-    background-color: transparent;
-    color: #8D5CF6;
-    font-size: 12px;
-    cursor: pointer;
-    font-weight: bold;
-    
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  border: 0.5px double;
+  background-color: transparent;
+  color: #8d5cf6;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
 }
