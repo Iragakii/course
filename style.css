@@ -393,5 +393,202 @@ ul.menu li a {
 .page-4 {
   padding: 1px 120px 1px 130px;
   background: #26335d;
-  height: 600px;
+  height: 1000px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.card-1 {
+  background-color: #ffffff;
+  display: grid;
+  gap: 30px;
+  padding: 25px;
+}
+.icon-4 {
+  text-align: center;
+  margin-top: 40px;
+  color: #ffffff;
+}
+.icon-4 i {
+  background-color: #8d5cf6;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 25px;
+}
+.card-4-title {
+  text-align: center;
+  font-weight: 700;
+}
+.card-4-descriptsion {
+  text-align: center;
+  color: #737373;
+  font-size: 10px;
+  font-weight: 700;
+}
+.card-4-price {
+  display: grid;
+  text-align: center;
+}
+.cost {
+  font-size: 30px;
+  font-weight: 700;
+  color: #8d5cf6;
+}
+.info-cost {
+  color: #8ec2f2;
+  font-size: 10px;
+  font-weight: 700;
+}
+.card-4-descriptsion-2 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 535;
+  color: #737373;
+}
+.btn-card-4 {
+  text-align: center;
+}
+.btn-card {
+  border: none;
+  background-color: #8d5cf6;
+  color: #ffffff;
+  width: 170px;
+  height: 32px;
+  font-size: 10px;
+  font-weight: 550;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.features-list {
+  text-align: center;
+  gap: 100px;
+}
+.feature-item .item-icon {
+  color: #ffffff;
+  background-color: #2dc071;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: small;
+}
+.feature-text {
+  font-size: 9px;
+  font-weight: 700;
+  color: #252b42;
+}
+.feature-item-spec .item-icon {
+  color: #ffffff;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: small;
+}
+.feature-text-cloud {
+  font-size: 9px;
+  font-weight: 700;
+  color: #252b42;
+  margin-right: 32px;
+}
+.feature-text-contact {
+  font-size: 9px;
+  font-weight: 700;
+  color: #252b42;
+  margin-right: 38px;
+}
+.feature-item-spec-2 .item-icon {
+  color: #ffffff;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: small;
+}
+.feature-item-spec-2 {
+  margin-right: 20px;
+}
+
+.card-2 {
+  background-color: #8d5cf6;
+  display: grid;
+  gap: 30px;
+  padding: 25px;
+}
+.icon-4-2 {
+  text-align: center;
+  margin-top: 40px;
+  color: #8d5cf6;
+}
+.icon-4-2 i {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 25px;
+}
+.card-4-title-2 {
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+}
+.card-4-descriptsion-2-3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+}
+.cost-2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.card-4-descriptsion-2-2 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 535;
+  color: #ffffff;
+}
+.btn-card-2 {
+  border: none;
+  background-color: #2dc071;
+  color: #ffffff;
+  width: 170px;
+  height: 32px;
+  font-size: 10px;
+  font-weight: 550;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.feature-text-2 {
+  font-size: 9px;
+  font-weight: 700;
+  color: #252b42;
+}
+.feature-text-cloud-2 {
+  font-size: 9px;
+  font-weight: 700;
+  color: #252b42;
+  margin-right: 32px;
+}
+.feature-text-contact-2 {
+  font-size: 9px;
+  font-weight: 700;
+  color: #252b42;
+  margin-right: 38px;
+}
+.card-3 {
+  background-color: #ffffff;
+  display: grid;
+  gap: 30px;
+  padding: 25px;
+}
+.circle-float {
+  position: absolute;
+  right: 255px;
+  top: 2566px;
+}
+.text-float {
+  font-weight: 700;
+  background-color: #e77c40;
+  border-radius: 50%;
+  padding: 18px 10px;
+  color: #ffffff;
 }
