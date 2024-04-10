@@ -249,8 +249,7 @@ ul.menu li a {
 }
 .content-3 {
   display: grid;
-  gap: 20px;
-  padding-top: 150px;
+  gap: 15px;
 }
 .tag {
   font-size: 10px;
@@ -272,18 +271,16 @@ ul.menu li a {
 .products {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  padding-right: 470px;
 }
-ul.products li {
-  flex-basis: 15%;
-  box-sizing: border-box;
-  height: 500px;
+
+.products img {
+  width: 160px;
+  height: 240px;
+  object-fit: cover;
 }
-ul.products li img {
-  max-width: 100%;
-  height: 200px;
-}
+
 .tag-3 {
   position: relative;
   top: 26px;
@@ -301,7 +298,7 @@ ul.products li img {
 .products-action {
   position: relative;
   bottom: 42px;
-  left: 42px;
+  left: 31px;
 }
 .btn-products-action {
   background-color: #ffffff;
@@ -323,7 +320,7 @@ ul.products li img {
 }
 .frame {
   display: flex;
-  width: 160px;
+  width: 140px;
   justify-content: space-between;
   padding-left: 17px;
 }
@@ -331,14 +328,14 @@ ul.products li img {
   font-size: 12px;
   color: #8d5cf6;
   font-weight: bold;
+  padding-top: 5px;
 }
 .btn-info {
   display: flex;
-  justify-content: space-between;
   background-color: #26335d;
   color: #ffffff;
   font-size: 10px;
-  border-radius: 40%;
+  border-radius: 40px;
   padding: 5px 5px 5px 5px;
 }
 .products-title {
