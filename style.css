@@ -172,7 +172,7 @@ ul.menu li a {
   white-space: nowrap;
 }
 .page-2 {
-  padding: 1px 120px 200px 130px;
+  padding: 1px 120px 120px 120px;
   background: #26335d;
   height: 600px;
 }
@@ -243,9 +243,8 @@ ul.menu li a {
   background: #ffdce0;
 }
 .page-3 {
-  padding: 1px 120px 100px 130px;
+  padding: 1px 120px 120px 120px;
   background: #26335d;
-  height: 1000px;
 }
 .content-3 {
   display: grid;
@@ -391,9 +390,8 @@ ul.menu li a {
   font-weight: bold;
 }
 .page-4 {
-  padding: 1px 120px 1px 130px;
+  padding: 1px 120px 120px 120px;
   background: #26335d;
-  height: 1000px;
 }
 .row {
   display: flex;
@@ -582,8 +580,8 @@ ul.menu li a {
 }
 .circle-float {
   position: absolute;
-  right: 255px;
-  top: 2566px;
+  right: 88px;
+  top: 2500px;
 }
 .text-float {
   font-weight: 700;
@@ -591,4 +589,63 @@ ul.menu li a {
   border-radius: 50%;
   padding: 18px 10px;
   color: #ffffff;
+}
+.page-5 {
+  padding: 1px 120px 120px 120px;
+  background: #26335d;
+}
+.row-page-5 {
+  display: flex;
+  justify-content: space-between;
+}
+.card-1-page-5 {
+  background-color: #ffffff;
+  padding: 0px 70px 25px 70px;
+}
+.img-p5 {
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.img-p5 img {
+  border-radius: 50%;
+  padding: 15px;
+  border: none;
+  object-fit: cover;
+  width: 130px;
+}
+.c5-content {
+  text-align: center;
+  display: grid;
+  gap: 10px;
+}
+.c5-des {
+  font-size: 10px;
+  font-weight: 535;
+  color: #737373;
+}
+.c5-icon {
+  font-size: 13px;
+}
+.c5-icon-2 {
+  font-size: 13px;
+  background-color: yellow;
+}
+.c5-frame {
+  display: grid;
+  gap: 5px;
+}
+.c5-title {
+  color: #252b42;
+  font-size: 13px;
+  font-weight: 700;
+}
+.c5-job {
+  font-size: 10px;
+  font-weight: 700;
+  color: #737373;
+}
+.card-2-page-5 {
+  background-color: #ffffff;
+  padding: 0px 70px 25px 70px;
 }
